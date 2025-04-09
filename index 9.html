@@ -1,0 +1,482 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MathMastery - Ejercicios de menor a mayor dificultad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; margin: 0; }
+    header, footer { background: #002244; color: white; text-align: center; padding: 20px; }
+    nav { background: #004477; text-align: center; padding: 10px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { max-width: 1000px; margin: auto; padding: 30px; }
+    .tema { margin-bottom: 40px; padding: 20px; border-radius: 8px; background: #eef4f8; }
+    .ejercicio { background: white; border: 1px solid #ccc; padding: 15px; border-radius: 6px; margin: 10px 0; }
+    button { background: #28a745; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; }
+    .logro {
+      margin-top: 10px;
+      padding: 10px;
+      background: #d4edda;
+      border-left: 4px solid #28a745;
+      display: none;
+    }
+    .nota {
+      background: #ffcccc;
+      border: 2px solid red;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    a { color: #004477; }
+  </style>
+  <script>
+    function mostrarLogro(id) {
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
+</head>
+<body>
+
+<header>
+  <h1>MathMastery</h1>
+  <p>Ejercicios ordenados por dificultad: ¡empieza fácil y sube el nivel!</p>
+</header>
+
+<nav>
+  <a href="#ejercicios">Ejercicios</a>
+  <a href="#respuestas">Respuestas</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="nota">
+  ⚠️ Los videos explicativos se envían por mensaje privado a través de WhatsApp o correo electrónico.
+</section>
+
+<section id="ejercicios">
+  <h2>📘 Ejercicios por dificultad</h2>
+  <div class='tema'><h2>Fracciones</h2>
+        <div class="ejercicio">
+          <p><strong>1.</strong> 20/21 + 21/22</p>
+          <button onclick="mostrarLogro('fracciones-1')">✅ Completar</button>
+          <div id="fracciones-1" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>2.</strong> 19/20 + 20/21</p>
+          <button onclick="mostrarLogro('fracciones-2')">✅ Completar</button>
+          <div id="fracciones-2" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>3.</strong> 18/19 + 19/20</p>
+          <button onclick="mostrarLogro('fracciones-3')">✅ Completar</button>
+          <div id="fracciones-3" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>4.</strong> 17/18 + 18/19</p>
+          <button onclick="mostrarLogro('fracciones-4')">✅ Completar</button>
+          <div id="fracciones-4" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>5.</strong> 16/17 + 17/18</p>
+          <button onclick="mostrarLogro('fracciones-5')">✅ Completar</button>
+          <div id="fracciones-5" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>6.</strong> 15/16 + 16/17</p>
+          <button onclick="mostrarLogro('fracciones-6')">✅ Completar</button>
+          <div id="fracciones-6" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>7.</strong> 14/15 + 15/16</p>
+          <button onclick="mostrarLogro('fracciones-7')">✅ Completar</button>
+          <div id="fracciones-7" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>8.</strong> 13/14 + 14/15</p>
+          <button onclick="mostrarLogro('fracciones-8')">✅ Completar</button>
+          <div id="fracciones-8" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>9.</strong> 12/13 + 13/14</p>
+          <button onclick="mostrarLogro('fracciones-9')">✅ Completar</button>
+          <div id="fracciones-9" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>10.</strong> 11/12 + 12/13</p>
+          <button onclick="mostrarLogro('fracciones-10')">✅ Completar</button>
+          <div id="fracciones-10" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>11.</strong> 10/11 + 11/12</p>
+          <button onclick="mostrarLogro('fracciones-11')">✅ Completar</button>
+          <div id="fracciones-11" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>12.</strong> 9/10 + 10/11</p>
+          <button onclick="mostrarLogro('fracciones-12')">✅ Completar</button>
+          <div id="fracciones-12" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>13.</strong> 8/9 + 9/10</p>
+          <button onclick="mostrarLogro('fracciones-13')">✅ Completar</button>
+          <div id="fracciones-13" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>14.</strong> 7/8 + 8/9</p>
+          <button onclick="mostrarLogro('fracciones-14')">✅ Completar</button>
+          <div id="fracciones-14" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>15.</strong> 6/7 + 7/8</p>
+          <button onclick="mostrarLogro('fracciones-15')">✅ Completar</button>
+          <div id="fracciones-15" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>16.</strong> 5/6 + 6/7</p>
+          <button onclick="mostrarLogro('fracciones-16')">✅ Completar</button>
+          <div id="fracciones-16" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>17.</strong> 4/5 + 5/6</p>
+          <button onclick="mostrarLogro('fracciones-17')">✅ Completar</button>
+          <div id="fracciones-17" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>18.</strong> 3/4 + 4/5</p>
+          <button onclick="mostrarLogro('fracciones-18')">✅ Completar</button>
+          <div id="fracciones-18" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>19.</strong> 2/3 + 3/4</p>
+          <button onclick="mostrarLogro('fracciones-19')">✅ Completar</button>
+          <div id="fracciones-19" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>20.</strong> 1/2 + 2/3</p>
+          <button onclick="mostrarLogro('fracciones-20')">✅ Completar</button>
+          <div id="fracciones-20" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div></div><div class='tema'><h2>Ecuaciones</h2>
+        <div class="ejercicio">
+          <p><strong>1.</strong> 20x + 22 = 442</p>
+          <button onclick="mostrarLogro('ecuaciones-1')">✅ Completar</button>
+          <div id="ecuaciones-1" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>2.</strong> 19x + 21 = 401</p>
+          <button onclick="mostrarLogro('ecuaciones-2')">✅ Completar</button>
+          <div id="ecuaciones-2" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>3.</strong> 18x + 20 = 362</p>
+          <button onclick="mostrarLogro('ecuaciones-3')">✅ Completar</button>
+          <div id="ecuaciones-3" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>4.</strong> 17x + 19 = 325</p>
+          <button onclick="mostrarLogro('ecuaciones-4')">✅ Completar</button>
+          <div id="ecuaciones-4" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>5.</strong> 16x + 18 = 290</p>
+          <button onclick="mostrarLogro('ecuaciones-5')">✅ Completar</button>
+          <div id="ecuaciones-5" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>6.</strong> 15x + 17 = 257</p>
+          <button onclick="mostrarLogro('ecuaciones-6')">✅ Completar</button>
+          <div id="ecuaciones-6" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>7.</strong> 14x + 16 = 226</p>
+          <button onclick="mostrarLogro('ecuaciones-7')">✅ Completar</button>
+          <div id="ecuaciones-7" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>8.</strong> 13x + 15 = 197</p>
+          <button onclick="mostrarLogro('ecuaciones-8')">✅ Completar</button>
+          <div id="ecuaciones-8" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>9.</strong> 12x + 14 = 170</p>
+          <button onclick="mostrarLogro('ecuaciones-9')">✅ Completar</button>
+          <div id="ecuaciones-9" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>10.</strong> 11x + 13 = 145</p>
+          <button onclick="mostrarLogro('ecuaciones-10')">✅ Completar</button>
+          <div id="ecuaciones-10" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>11.</strong> 10x + 12 = 122</p>
+          <button onclick="mostrarLogro('ecuaciones-11')">✅ Completar</button>
+          <div id="ecuaciones-11" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>12.</strong> 9x + 11 = 101</p>
+          <button onclick="mostrarLogro('ecuaciones-12')">✅ Completar</button>
+          <div id="ecuaciones-12" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>13.</strong> 8x + 10 = 82</p>
+          <button onclick="mostrarLogro('ecuaciones-13')">✅ Completar</button>
+          <div id="ecuaciones-13" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>14.</strong> 7x + 9 = 65</p>
+          <button onclick="mostrarLogro('ecuaciones-14')">✅ Completar</button>
+          <div id="ecuaciones-14" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>15.</strong> 6x + 8 = 50</p>
+          <button onclick="mostrarLogro('ecuaciones-15')">✅ Completar</button>
+          <div id="ecuaciones-15" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>16.</strong> 5x + 7 = 37</p>
+          <button onclick="mostrarLogro('ecuaciones-16')">✅ Completar</button>
+          <div id="ecuaciones-16" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>17.</strong> 4x + 6 = 26</p>
+          <button onclick="mostrarLogro('ecuaciones-17')">✅ Completar</button>
+          <div id="ecuaciones-17" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>18.</strong> 3x + 5 = 17</p>
+          <button onclick="mostrarLogro('ecuaciones-18')">✅ Completar</button>
+          <div id="ecuaciones-18" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>19.</strong> 2x + 4 = 10</p>
+          <button onclick="mostrarLogro('ecuaciones-19')">✅ Completar</button>
+          <div id="ecuaciones-19" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>20.</strong> 1x + 3 = 5</p>
+          <button onclick="mostrarLogro('ecuaciones-20')">✅ Completar</button>
+          <div id="ecuaciones-20" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div></div><div class='tema'><h2>Álgebra</h2>
+        <div class="ejercicio">
+          <p><strong>1.</strong> (20x + 21)(20x - 21)</p>
+          <button onclick="mostrarLogro('álgebra-1')">✅ Completar</button>
+          <div id="álgebra-1" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>2.</strong> (19x + 20)(19x - 20)</p>
+          <button onclick="mostrarLogro('álgebra-2')">✅ Completar</button>
+          <div id="álgebra-2" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>3.</strong> (18x + 19)(18x - 19)</p>
+          <button onclick="mostrarLogro('álgebra-3')">✅ Completar</button>
+          <div id="álgebra-3" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>4.</strong> (17x + 18)(17x - 18)</p>
+          <button onclick="mostrarLogro('álgebra-4')">✅ Completar</button>
+          <div id="álgebra-4" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>5.</strong> (16x + 17)(16x - 17)</p>
+          <button onclick="mostrarLogro('álgebra-5')">✅ Completar</button>
+          <div id="álgebra-5" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>6.</strong> (15x + 16)(15x - 16)</p>
+          <button onclick="mostrarLogro('álgebra-6')">✅ Completar</button>
+          <div id="álgebra-6" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>7.</strong> (14x + 15)(14x - 15)</p>
+          <button onclick="mostrarLogro('álgebra-7')">✅ Completar</button>
+          <div id="álgebra-7" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>8.</strong> (13x + 14)(13x - 14)</p>
+          <button onclick="mostrarLogro('álgebra-8')">✅ Completar</button>
+          <div id="álgebra-8" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>9.</strong> (12x + 13)(12x - 13)</p>
+          <button onclick="mostrarLogro('álgebra-9')">✅ Completar</button>
+          <div id="álgebra-9" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>10.</strong> (11x + 12)(11x - 12)</p>
+          <button onclick="mostrarLogro('álgebra-10')">✅ Completar</button>
+          <div id="álgebra-10" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>11.</strong> (10x + 11)(10x - 11)</p>
+          <button onclick="mostrarLogro('álgebra-11')">✅ Completar</button>
+          <div id="álgebra-11" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>12.</strong> (9x + 10)(9x - 10)</p>
+          <button onclick="mostrarLogro('álgebra-12')">✅ Completar</button>
+          <div id="álgebra-12" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>13.</strong> (8x + 9)(8x - 9)</p>
+          <button onclick="mostrarLogro('álgebra-13')">✅ Completar</button>
+          <div id="álgebra-13" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>14.</strong> (7x + 8)(7x - 8)</p>
+          <button onclick="mostrarLogro('álgebra-14')">✅ Completar</button>
+          <div id="álgebra-14" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>15.</strong> (6x + 7)(6x - 7)</p>
+          <button onclick="mostrarLogro('álgebra-15')">✅ Completar</button>
+          <div id="álgebra-15" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>16.</strong> (5x + 6)(5x - 6)</p>
+          <button onclick="mostrarLogro('álgebra-16')">✅ Completar</button>
+          <div id="álgebra-16" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>17.</strong> (4x + 5)(4x - 5)</p>
+          <button onclick="mostrarLogro('álgebra-17')">✅ Completar</button>
+          <div id="álgebra-17" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>18.</strong> (3x + 4)(3x - 4)</p>
+          <button onclick="mostrarLogro('álgebra-18')">✅ Completar</button>
+          <div id="álgebra-18" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>19.</strong> (2x + 3)(2x - 3)</p>
+          <button onclick="mostrarLogro('álgebra-19')">✅ Completar</button>
+          <div id="álgebra-19" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>20.</strong> (1x + 2)(1x - 2)</p>
+          <button onclick="mostrarLogro('álgebra-20')">✅ Completar</button>
+          <div id="álgebra-20" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div></div><div class='tema'><h2>Trigonometría</h2>
+        <div class="ejercicio">
+          <p><strong>1.</strong> op = 20, adj = 25 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-1')">✅ Completar</button>
+          <div id="trigonometría-1" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>2.</strong> op = 19, adj = 24 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-2')">✅ Completar</button>
+          <div id="trigonometría-2" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>3.</strong> op = 18, adj = 23 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-3')">✅ Completar</button>
+          <div id="trigonometría-3" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>4.</strong> op = 17, adj = 22 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-4')">✅ Completar</button>
+          <div id="trigonometría-4" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>5.</strong> op = 16, adj = 21 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-5')">✅ Completar</button>
+          <div id="trigonometría-5" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>6.</strong> op = 15, adj = 20 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-6')">✅ Completar</button>
+          <div id="trigonometría-6" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>7.</strong> op = 14, adj = 19 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-7')">✅ Completar</button>
+          <div id="trigonometría-7" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>8.</strong> op = 13, adj = 18 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-8')">✅ Completar</button>
+          <div id="trigonometría-8" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>9.</strong> op = 12, adj = 17 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-9')">✅ Completar</button>
+          <div id="trigonometría-9" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>10.</strong> op = 11, adj = 16 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-10')">✅ Completar</button>
+          <div id="trigonometría-10" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>11.</strong> op = 10, adj = 15 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-11')">✅ Completar</button>
+          <div id="trigonometría-11" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>12.</strong> op = 9, adj = 14 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-12')">✅ Completar</button>
+          <div id="trigonometría-12" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>13.</strong> op = 8, adj = 13 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-13')">✅ Completar</button>
+          <div id="trigonometría-13" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>14.</strong> op = 7, adj = 12 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-14')">✅ Completar</button>
+          <div id="trigonometría-14" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>15.</strong> op = 6, adj = 11 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-15')">✅ Completar</button>
+          <div id="trigonometría-15" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>16.</strong> op = 5, adj = 10 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-16')">✅ Completar</button>
+          <div id="trigonometría-16" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>17.</strong> op = 4, adj = 9 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-17')">✅ Completar</button>
+          <div id="trigonometría-17" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>18.</strong> op = 3, adj = 8 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-18')">✅ Completar</button>
+          <div id="trigonometría-18" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>19.</strong> op = 2, adj = 7 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-19')">✅ Completar</button>
+          <div id="trigonometría-19" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div>
+        <div class="ejercicio">
+          <p><strong>20.</strong> op = 1, adj = 6 → tan = ?</p>
+          <button onclick="mostrarLogro('trigonometría-20')">✅ Completar</button>
+          <div id="trigonometría-20" class="logro">✔️ ¡Ejercicio completado!</div>
+        </div></div>
+</section>
+
+<section id="respuestas">
+  <h2>✅ Respuestas</h2>
+  <div class='tema'><h2>Fracciones</h2><ol><li><strong>20/21 + 21/22</strong> → Calcula usando mínimo común denominador</li><li><strong>19/20 + 20/21</strong> → Calcula usando mínimo común denominador</li><li><strong>18/19 + 19/20</strong> → Calcula usando mínimo común denominador</li><li><strong>17/18 + 18/19</strong> → Calcula usando mínimo común denominador</li><li><strong>16/17 + 17/18</strong> → Calcula usando mínimo común denominador</li><li><strong>15/16 + 16/17</strong> → Calcula usando mínimo común denominador</li><li><strong>14/15 + 15/16</strong> → Calcula usando mínimo común denominador</li><li><strong>13/14 + 14/15</strong> → Calcula usando mínimo común denominador</li><li><strong>12/13 + 13/14</strong> → Calcula usando mínimo común denominador</li><li><strong>11/12 + 12/13</strong> → Calcula usando mínimo común denominador</li><li><strong>10/11 + 11/12</strong> → Calcula usando mínimo común denominador</li><li><strong>9/10 + 10/11</strong> → Calcula usando mínimo común denominador</li><li><strong>8/9 + 9/10</strong> → Calcula usando mínimo común denominador</li><li><strong>7/8 + 8/9</strong> → Calcula usando mínimo común denominador</li><li><strong>6/7 + 7/8</strong> → Calcula usando mínimo común denominador</li><li><strong>5/6 + 6/7</strong> → Calcula usando mínimo común denominador</li><li><strong>4/5 + 5/6</strong> → Calcula usando mínimo común denominador</li><li><strong>3/4 + 4/5</strong> → Calcula usando mínimo común denominador</li><li><strong>2/3 + 3/4</strong> → Calcula usando mínimo común denominador</li><li><strong>1/2 + 2/3</strong> → Calcula usando mínimo común denominador</li></ol></div><div class='tema'><h2>Ecuaciones</h2><ol><li><strong>20x + 22 = 442</strong> → x = 21</li><li><strong>19x + 21 = 401</strong> → x = 20</li><li><strong>18x + 20 = 362</strong> → x = 19</li><li><strong>17x + 19 = 325</strong> → x = 18</li><li><strong>16x + 18 = 290</strong> → x = 17</li><li><strong>15x + 17 = 257</strong> → x = 16</li><li><strong>14x + 16 = 226</strong> → x = 15</li><li><strong>13x + 15 = 197</strong> → x = 14</li><li><strong>12x + 14 = 170</strong> → x = 13</li><li><strong>11x + 13 = 145</strong> → x = 12</li><li><strong>10x + 12 = 122</strong> → x = 11</li><li><strong>9x + 11 = 101</strong> → x = 10</li><li><strong>8x + 10 = 82</strong> → x = 9</li><li><strong>7x + 9 = 65</strong> → x = 8</li><li><strong>6x + 8 = 50</strong> → x = 7</li><li><strong>5x + 7 = 37</strong> → x = 6</li><li><strong>4x + 6 = 26</strong> → x = 5</li><li><strong>3x + 5 = 17</strong> → x = 4</li><li><strong>2x + 4 = 10</strong> → x = 3</li><li><strong>1x + 3 = 5</strong> → x = 2</li></ol></div><div class='tema'><h2>Álgebra</h2><ol><li><strong>(20x + 21)(20x - 21)</strong> → 400x² - 441</li><li><strong>(19x + 20)(19x - 20)</strong> → 361x² - 400</li><li><strong>(18x + 19)(18x - 19)</strong> → 324x² - 361</li><li><strong>(17x + 18)(17x - 18)</strong> → 289x² - 324</li><li><strong>(16x + 17)(16x - 17)</strong> → 256x² - 289</li><li><strong>(15x + 16)(15x - 16)</strong> → 225x² - 256</li><li><strong>(14x + 15)(14x - 15)</strong> → 196x² - 225</li><li><strong>(13x + 14)(13x - 14)</strong> → 169x² - 196</li><li><strong>(12x + 13)(12x - 13)</strong> → 144x² - 169</li><li><strong>(11x + 12)(11x - 12)</strong> → 121x² - 144</li><li><strong>(10x + 11)(10x - 11)</strong> → 100x² - 121</li><li><strong>(9x + 10)(9x - 10)</strong> → 81x² - 100</li><li><strong>(8x + 9)(8x - 9)</strong> → 64x² - 81</li><li><strong>(7x + 8)(7x - 8)</strong> → 49x² - 64</li><li><strong>(6x + 7)(6x - 7)</strong> → 36x² - 49</li><li><strong>(5x + 6)(5x - 6)</strong> → 25x² - 36</li><li><strong>(4x + 5)(4x - 5)</strong> → 16x² - 25</li><li><strong>(3x + 4)(3x - 4)</strong> → 9x² - 16</li><li><strong>(2x + 3)(2x - 3)</strong> → 4x² - 9</li><li><strong>(1x + 2)(1x - 2)</strong> → 1x² - 4</li></ol></div><div class='tema'><h2>Trigonometría</h2><ol><li><strong>op = 20, adj = 25 → tan = ?</strong> → 20/25</li><li><strong>op = 19, adj = 24 → tan = ?</strong> → 19/24</li><li><strong>op = 18, adj = 23 → tan = ?</strong> → 18/23</li><li><strong>op = 17, adj = 22 → tan = ?</strong> → 17/22</li><li><strong>op = 16, adj = 21 → tan = ?</strong> → 16/21</li><li><strong>op = 15, adj = 20 → tan = ?</strong> → 15/20</li><li><strong>op = 14, adj = 19 → tan = ?</strong> → 14/19</li><li><strong>op = 13, adj = 18 → tan = ?</strong> → 13/18</li><li><strong>op = 12, adj = 17 → tan = ?</strong> → 12/17</li><li><strong>op = 11, adj = 16 → tan = ?</strong> → 11/16</li><li><strong>op = 10, adj = 15 → tan = ?</strong> → 10/15</li><li><strong>op = 9, adj = 14 → tan = ?</strong> → 9/14</li><li><strong>op = 8, adj = 13 → tan = ?</strong> → 8/13</li><li><strong>op = 7, adj = 12 → tan = ?</strong> → 7/12</li><li><strong>op = 6, adj = 11 → tan = ?</strong> → 6/11</li><li><strong>op = 5, adj = 10 → tan = ?</strong> → 5/10</li><li><strong>op = 4, adj = 9 → tan = ?</strong> → 4/9</li><li><strong>op = 3, adj = 8 → tan = ?</strong> → 3/8</li><li><strong>op = 2, adj = 7 → tan = ?</strong> → 2/7</li><li><strong>op = 1, adj = 6 → tan = ?</strong> → 1/6</li></ol></div>
+</section>
+
+<section id="contacto">
+  <h2>📩 Contáctanos</h2>
+  <p>¿Quieres recibir los videos con explicaciones personalizadas?</p>
+  <ul>
+    <li>Email: juanpa.castilloms@gmail.com</li>
+    <li>WhatsApp: +52 222 895 4743</li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2025 MathMastery - Colegio América de Puebla</p>
+</footer>
+
+</body>
+</html>
